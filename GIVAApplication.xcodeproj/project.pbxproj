@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A68FBEFB2A3066C1000536B5 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FBEFA2A3066C1000536B5 /* CollectionViewCell2.swift */; };
+		A68FBEFD2A306AEA000536B5 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FBEFC2A306AEA000536B5 /* CollectionViewCell3.swift */; };
+		A68FBEFF2A307031000536B5 /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FBEFE2A307031000536B5 /* CollectionViewCell4.swift */; };
+		A68FBF012A3072FB000536B5 /* CollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FBF002A3072FB000536B5 /* CollectionViewCell5.swift */; };
 		A6A64D1C2A2DA8D600424552 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A64D1B2A2DA8D600424552 /* navigation.swift */; };
 		A6A64D1E2A2DA97300424552 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A64D1D2A2DA97300424552 /* Tabbar.swift */; };
 		A6A64D202A2DAAF700424552 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A64D1F2A2DAAF700424552 /* HomePage.swift */; };
@@ -29,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A68FBEFA2A3066C1000536B5 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		A68FBEFC2A306AEA000536B5 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell3.swift; path = "../../Library/Developer/Xcode/DerivedData/GIVAApplication-hitufqouswpiwohanxrlfofwnfbu/SourcePackages/checkouts/DPOTPView/CollectionViewCell3.swift"; sourceTree = "<group>"; };
+		A68FBEFE2A307031000536B5 /* CollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
+		A68FBF002A3072FB000536B5 /* CollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5.swift; sourceTree = "<group>"; };
 		A6A64D1B2A2DA8D600424552 /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
 		A6A64D1D2A2DA97300424552 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		A6A64D1F2A2DAAF700424552 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 		D3C5A47B29E7E5F200FFE53C = {
 			isa = PBXGroup;
 			children = (
+				A68FBF002A3072FB000536B5 /* CollectionViewCell5.swift */,
+				A68FBEFE2A307031000536B5 /* CollectionViewCell4.swift */,
+				A68FBEFC2A306AEA000536B5 /* CollectionViewCell3.swift */,
+				A68FBEFA2A3066C1000536B5 /* CollectionViewCell2.swift */,
 				D3C5A48629E7E5F200FFE53C /* GIVAApplication */,
 				D3C5A48529E7E5F200FFE53C /* Products */,
 			);
@@ -187,16 +199,20 @@
 				D3C5A4A129E7E7EF00FFE53C /* MyCollectionViewCell.swift in Sources */,
 				A6A64D1E2A2DA97300424552 /* Tabbar.swift in Sources */,
 				D358238829E94AD700809DD2 /* MainPage.swift in Sources */,
+				A68FBEFD2A306AEA000536B5 /* CollectionViewCell3.swift in Sources */,
 				A6A64D242A2DB19900424552 /* CollectionViewCell.swift in Sources */,
 				D3C5A48829E7E5F200FFE53C /* AppDelegate.swift in Sources */,
 				A6A64D202A2DAAF700424552 /* HomePage.swift in Sources */,
 				D3FAA30129EE6C16005B9028 /* File.swift in Sources */,
 				D3C5A48A29E7E5F200FFE53C /* SceneDelegate.swift in Sources */,
+				A68FBEFF2A307031000536B5 /* CollectionViewCell4.swift in Sources */,
 				D3C5A4A329E7F15A00FFE53C /* LogInPage.swift in Sources */,
 				A6A64D222A2DB0FC00424552 /* SupportPage.swift in Sources */,
 				A6A64D1C2A2DA8D600424552 /* navigation.swift in Sources */,
+				A68FBEFB2A3066C1000536B5 /* CollectionViewCell2.swift in Sources */,
 				D3579C1D29ED1F2100FFC0B6 /* CreateAccount.swift in Sources */,
 				D3C5A49229E7E5F200FFE53C /* GIVAApplication.xcdatamodeld in Sources */,
+				A68FBF012A3072FB000536B5 /* CollectionViewCell5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

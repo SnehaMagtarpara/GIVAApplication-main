@@ -1133,14 +1133,25 @@
                     <view key="view" contentMode="scaleToFill" id="zYH-Kg-QF9">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDA-S4-NtQ">
+                                <rect key="frame" x="0.0" y="47" width="390" height="797"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="yaK-WU-Xjp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nDA-S4-NtQ" firstAttribute="top" secondItem="yaK-WU-Xjp" secondAttribute="top" id="K5I-SW-Qs3"/>
+                            <constraint firstItem="nDA-S4-NtQ" firstAttribute="trailing" secondItem="yaK-WU-Xjp" secondAttribute="trailing" id="Z2C-B9-l8O"/>
+                            <constraint firstAttribute="bottom" secondItem="nDA-S4-NtQ" secondAttribute="bottom" id="nJz-Ow-STL"/>
+                            <constraint firstItem="nDA-S4-NtQ" firstAttribute="leading" secondItem="yaK-WU-Xjp" secondAttribute="leading" id="qpq-QN-zu4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vX3-AU-YEX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23F-Ai-mXG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5291" y="-223"/>
+            <point key="canvasLocation" x="5290.7692307692305" y="-223.22274881516586"/>
         </scene>
         <!--Tabbar-->
         <scene sceneID="3oV-UL-9hy">
@@ -1187,11 +1198,10 @@
         <!--Home-->
         <scene sceneID="D2g-De-L9G">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XLu-7r-S8t" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="XLu-7r-S8t" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="aLJ-0d-6iO"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3DO-IX-KLT">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
